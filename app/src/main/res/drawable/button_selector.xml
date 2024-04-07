@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_background_pressed" android:state_pressed="true" /> <!-- Set the background when pressed -->
+    <item android:drawable="@drawable/button_background_disabled" android:state_enabled="false" /> <!-- Set the background when disabled -->
+    <item android:drawable="@drawable/button_background_normal" /> <!-- Set the default background -->
+</selector>
